@@ -1,13 +1,20 @@
+;***********************
+;* How to Load an ANSI *
+;* Picture on a KIM-1  *
+;* with an attatched   *
+;* ANSI terminal       *
+;* just a test......   *
+;* assemble with 64tass*
+;***********************
+
+;most of the code is stolen from Jim
 
 xOutch     = $1EA0
-;
 ; A routine to get a byte from the console...
 xGetch     = $1E5A
-;
 ; ...and the reset vector to restart the system.
 xStart     = $1C4F
 
-;
 ; Define the Page Zero Locations we will use...
 ;
 ; We avoide the KIM's monitor, but other than that this probably
@@ -67,7 +74,9 @@ LOAD_P:
            STA EADDR+1
  
            JSR COPY  ; Move source to destination
-
+		   JMP xStart
+		   
+		   
 ; COPY will copy non-overlapping memory down from the ROM
 ; and into RAM.
 ;
