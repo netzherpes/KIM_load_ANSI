@@ -1,7 +1,7 @@
 # KIM_load_ANSI
 ## How to load colorful ANSI pictures with your KIM
 
-Convert an ASNI picture to Bytecode using Hans Ottens 8-bit Converter.
+Convert an ANSI picture to Bytecode using Hans Ottens 8-bit Converter.
 
 add 
 pic_start: 
