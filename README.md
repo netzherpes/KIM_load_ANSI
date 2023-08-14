@@ -10,7 +10,7 @@ pic_finish:
 
 to the Picture File and compile everything with 64tass..
 
-
+Its not working right now. Dunno if its the terminal or my weak skills
 
 The code is mostly stolen from Jim 
 (James McClanahan w4jbm)
