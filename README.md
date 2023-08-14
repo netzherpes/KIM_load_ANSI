@@ -17,3 +17,4 @@ The code is mostly stolen from Jim
 
 Hey, 64tass ist starting to make fun....
 
+ahhh. one thing: if you compile wo arguments do not forget to delete the 1st two byte (c64 start address)
