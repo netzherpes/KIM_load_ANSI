@@ -99,7 +99,7 @@ _NotFin:   INC SADDR+0       ; Not finished, then increment Source (16 bits)
            BNE _NoInc1       ; Do we need to increment upper byte?
            INC SADDR+1
 
-_NoInc1:   JMP _COPY2
+_NoInc1:   JMP COPY
 
 
 ;

@@ -1,4 +1,4 @@
-pic_start: 
+pic_start:
         .byte $1B
         .byte $5B
         .byte $34
