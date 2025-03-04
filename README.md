@@ -5,7 +5,8 @@ Convert an ANSI picture to Bytecode using Hans Ottens 8-bit Converter.
 
 need to start over again...  next try...
 
-Load your ANSI to any given memory location.
+Load your ANSI to any given memory location
+IMPORTANT: End the File with an  @ ($40)
 Define this location at 0A and 0B (lo, hi)
     for example you store at $0200 - 0A=00 0B=02
 Load the program to adress $0080 and execute
