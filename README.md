@@ -1,19 +1,17 @@
 # KIM load ANSI
 ## How to load colorful ANSI pictures with your KIM
+### need to start over again...  next try...
 
-Convert an ANSI picture to Bytecode using Hans Ottens 8-bit Converter.
-
-need to start over again...  next try...
+Save a textfile, ending with an '@' , rename it to the ending .bin 
 
 Load your ANSI to any given memory location
 
 IMPORTANT: End the File with an  @ ($40)
 
 Define this location at 0A and 0B (lo, hi)<br>
-    for example you store at $0200 - 0A=00 0B=02<br>
-Load the program to adress $0080 and execute
+    for example you store at $0200 - $0A=00 $0B=02<br>
+Load the AnsiLoad program to adress $0080 and execute
 
-If you want to start again, redefine 0A and 0B....
+If you want to start again, redefine 0A and 0B as both increment during the process.
 
-next thing: get this fancy pictures ;)
-
+next thing: get this fancy pictures ;), implement a CLS and a WAIT routine.
