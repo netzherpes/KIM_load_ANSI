@@ -1,20 +1,16 @@
-# KIM_load_ANSI
+# KIM load ANSI
 ## How to load colorful ANSI pictures with your KIM
 
 Convert an ANSI picture to Bytecode using Hans Ottens 8-bit Converter.
 
-add 
-pic_start: 
-and 
-pic_finish:
+need to start over again...  next try...
 
-to the Picture File and compile everything with 64tass..
+Load your ANSI to any given memory location.
+Define this location at 0A and 0B (lo, hi)
+    for example you store at $0200 - 0A=00 0B=02
+Load the program to adress $0080 and execute
 
-Its not working right now. Dunno if its the terminal or my weak skills
+If you want to start again, redefine 0A and 0B....
 
-The code is mostly stolen from Jim 
-(James McClanahan w4jbm)
+next thing: get this fancy pictures ;)
 
-Hey, 64tass ist starting to make fun....
-
-ahhh. one thing: if you compile wo arguments do not forget to delete the 1st two byte (c64 start address)
