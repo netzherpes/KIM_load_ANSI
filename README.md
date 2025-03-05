@@ -2,9 +2,9 @@
 ## How to load colorful ANSI pictures with your KIM
 ### need to start over again...  next try...
 
-Save a textfile, ending with an '@' , rename it to the ending .bin 
-
-Load your ANSI to any given memory location
+Save a textfile, *ending with an '@'* , rename it to the ending .bin <br>
+Convert it with Hans Ottens converter to MOS Papertape, choose the location<br>
+Load your ANSI to any given memory location.
 
 IMPORTANT: End the File with an  @ ($40)
 
