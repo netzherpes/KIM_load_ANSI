@@ -15,3 +15,5 @@ Load the AnsiLoad program to adress $0080 and execute
 If you want to start again, redefine 0A and 0B as both increment during the process.
 
 next thing: get this fancy pictures ;), implement a CLS and a WAIT routine.
+
+Viewing ANSI is not possible with Tera Term 5, as the use of codepages is broken (TT4 from 21 is working...)
