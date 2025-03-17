@@ -17,3 +17,22 @@ If you want to start again, redefine 0A and 0B as both increment during the proc
 next thing: get this fancy pictures ;), implement a CLS and a WAIT routine.
 
 Viewing ANSI is not possible with Tera Term 5, as the use of codepages 850 or 437 (US ANSI) is broken (TT4 from 21 is working...)
+
+UPDATE: there will be ANSI in the upcomming Tera Term 5.5:
+
+    Encoding
+
+    receive CP437 Latin (US)
+    DEC Special Graphics
+        Mapping Unicode to DEC DSpecial Graphics: on
+            Box-drawing character: off
+            Punctuation, Block Elements, Shade: off
+            Middle dots: off
+            Mapping DEC Special Graphics to Unicode: on
+
+    Font
+
+    VT Font: Perfect DOS VGA 437 Win, Normal, 14, 
+    API for drawing: Unicode
+
+
