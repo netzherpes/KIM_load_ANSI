@@ -10,7 +10,7 @@ IMPORTANT: End the File with an  @ ($40)
 
 Define this location at 0A and 0B (lo, hi)<br>
     for example you store at $0200 - $0A=00 $0B=02<br>
-Load the AnsiLoad program to adress $0080 and execute
+Load the AnsiLoad program to adress $0200 and execute
 
 If you want to start again, redefine 0A and 0B as both increment during the process.
 
